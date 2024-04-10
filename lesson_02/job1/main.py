@@ -6,7 +6,7 @@ import os
 from flask import Flask, request
 from flask import typing as flask_typing
 
-from job1.bll.sales_api import save_sales_to_local_disk
+from lesson_02.job1.bll.sales_api import save_sales_to_local_disk
 
 
 AUTH_TOKEN = os.environ.get("API_AUTH_TOKEN")
