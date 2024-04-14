@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bb298b-09fd-4c96-9f6a-6db3e3b3d54d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="89bb298b-09fd-4c96-9f6a-6db3e3b3d54d" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
     <envs>
@@ -65,6 +70,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Docker.pagila: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_jobs.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_api_with_requests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -84,7 +90,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Docker.pagila: Compose Deployment">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sensb\Documents\GitHub\robot-dreams_homework\lesson_02\examples\api" />
+      <recent name="C:\Users\sensb\Documents\GitHub\robot-dreams_homework\lesson_02\job1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="robot-dreams_homework" />
       <option name="ENV_FILES" value="" />
@@ -110,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check_jobs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="robot-dreams_homework" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +130,32 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="AUTH_TOKEN" value="2b8d97ce57d401abd89f45b0079d8790edd940e6" />
+        <env name="BASE_DIR" value="C:\Users\sensb\Documents\GitHub\robot-dreams_homework\lesson_02" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_02/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson_02/bin/check_jobs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="robot-dreams_homework" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="API_AUTH_TOKEN" value="2b8d97ce57d401abd89f45b0079d8790edd940e6" />
+        <env name="AUTH_TOKEN" value="2b8d97ce57d401abd89f45b0079d8790edd940e6" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/job1" />
@@ -170,13 +207,15 @@
     </configuration>
     <list>
       <item itemvalue="Docker.pagila: Compose Deployment" />
+      <item itemvalue="Python.check_jobs" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test_api_with_requests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_api_with_requests" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.check_jobs" />
+        <item itemvalue="Python.test_api_with_requests" />
         <item itemvalue="Docker.pagila: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -222,7 +261,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/robot_dreams_homework$test_api_with_requests.coverage" NAME="test_api_with_requests Coverage Results" MODIFIED="1713080839971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/examples/api" />
+    <SUITE FILE_PATH="coverage/robot_dreams_homework$test_api_with_requests.coverage" NAME="test_api_with_requests Coverage Results" MODIFIED="1713085046284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/examples/api" />
     <SUITE FILE_PATH="coverage/robot_dreams_homework$main.coverage" NAME="main Coverage Results" MODIFIED="1712517172281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/job1" />
+    <SUITE FILE_PATH="coverage/robot_dreams_homework$check_jobs.coverage" NAME="check_jobs Coverage Results" MODIFIED="1713084987715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/bin" />
   </component>
 </project>
