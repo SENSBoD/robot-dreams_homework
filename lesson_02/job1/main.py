@@ -36,6 +36,9 @@ def main() -> flask_typing.ResponseReturnValue:
     date = input_data.get('date')
     raw_dir = input_data.get('raw_dir')
 
+    # print(date)
+    # print(raw_dir)
+
     if not date:
         return {
             "message": "date parameter missed",
