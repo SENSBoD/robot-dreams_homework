@@ -1,4 +1,4 @@
-from job1.dal import local_disk, sales_api
+from lesson_02.job1.dal import local_disk, sales_api
 import requests
 
 
