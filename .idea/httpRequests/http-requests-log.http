@@ -1,0 +1,43 @@
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "raw/sales/2022-08-09"
+}
+
+<> 2024-04-14T150735.201.json
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 63
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "raw/sales/2022-08-09"
+}
+
+<> 2024-04-14T150613.201.json
+
+###
+
+GET https://fake-api-vycpfa6oca-uc.a.run.app/sales?date=2022-08-09&page=1
+Authorization: 2b8d97ce57d401abd89f45b0079d8790edd940e6
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-14T150510.200.json
+
+###
+
