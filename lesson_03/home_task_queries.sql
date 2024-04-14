@@ -72,4 +72,5 @@ SELECT CONCAT(a.first_name, ' ', a.last_name) as actor_name,
         JOIN actor a ON fa.actor_id = a.actor_id
     WHERE c.name = 'Children'
     GROUP BY actor_name
-    ORDER BY total_films DESC;
+    ORDER BY total_films DESC
+    LIMIT 3;
