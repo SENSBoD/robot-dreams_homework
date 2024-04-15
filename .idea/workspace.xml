@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bb298b-09fd-4c96-9f6a-6db3e3b3d54d" name="Changes" comment="Initial commit" />
+    <list default="true" id="89bb298b-09fd-4c96-9f6a-6db3e3b3d54d" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/lesson_03/home_task_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_03/home_task_queries.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,6 @@
         <env name="AUTH_TOKEN" value="2b8d97ce57d401abd89f45b0079d8790edd940e6" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="ds_env_for_learn" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -167,9 +168,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.pagila: Compose Deployment" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.test_api_with_requests" />
+      <item itemvalue="Docker.pagila: Compose Deployment" />
     </list>
     <recent_temporary>
       <list>
