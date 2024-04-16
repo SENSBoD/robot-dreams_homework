@@ -10,6 +10,166 @@ Accept: */*
   "raw_dir": "/raw/sales/2022-08-09"
 }
 
+<> 2024-04-15T171854.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T171830.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T171748.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T171703.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T162336.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T161553.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T161339.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T161037.404.html
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T123925.201.json
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
+<> 2024-04-15T121504.201.json
+
+###
+
+POST http://localhost:8081
+Content-Type: application/json
+Content-Length: 64
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "date": "2022-08-09",
+  "raw_dir": "/raw/sales/2022-08-09"
+}
+
 <> 2024-04-14T173616.201.json
 
 ###
