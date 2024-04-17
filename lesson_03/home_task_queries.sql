@@ -37,8 +37,7 @@ SELECT CONCAT(a.first_name, ' ', a.last_name) AS actor_name,
 Вивести категорія фільмів, на яку було витрачено найбільше грошей
 в прокаті
 */
-SELECT c.name AS category,
-    SUM(p.amount) AS total_sales
+SELECT c.name AS category
     FROM payment p
         JOIN rental r ON p.rental_id = r.rental_id
         JOIN inventory i ON r.inventory_id = i.inventory_id
@@ -46,7 +45,8 @@ SELECT c.name AS category,
         JOIN film_category fc ON f.film_id = fc.film_id
         JOIN category c ON fc.category_id = c.category_id
     GROUP BY category
-    ORDER BY total_sales DESC;
+    ORDER BY SUM(p.amount) DESC
+    LIMIT 1;
 /*
 4.
 Вивести назви фільмів, яких не має в inventory.
