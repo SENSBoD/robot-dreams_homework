@@ -1,10 +1,18 @@
 #GET https://fake-api-vycpfa6oca-uc.a.run.app/sales?date=2022-08-09&page=1
 #Authorization: 2b8d97ce57d401abd89f45b0079d8790edd940e6
 
-POST http://localhost:8081
+#POST http://localhost:8081
+#Content-Type: application/json
+#
+#{
+#  "date": "2022-08-09",
+#  "raw_dir": "/raw/sales/2022-08-09"
+#}
+
+POST http://localhost:8082
 Content-Type: application/json
 
 {
-  "date": "2022-08-09",
-  "raw_dir": "/raw/sales/2022-08-09"
+  "raw_dir": "/raw/sales/2022-08-09",
+  "stg_dir": "/stg/sales/2022-08-09"
 }

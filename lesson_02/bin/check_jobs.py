@@ -1,6 +1,6 @@
 import os
-import time
 import requests
+import time
 
 
 # BASE_DIR = os.environ.get("BASE_DIR")
@@ -38,6 +38,7 @@ def run_job1():
 
 def run_job2():
     print("Starting job2:")
+
     resp = requests.post(
         url=f'http://localhost:{JOB2_PORT}/',
         json={
@@ -51,5 +52,5 @@ def run_job2():
 
 if __name__ == '__main__':
     run_job1()
-    # time.sleep(3)
-    # run_job2()
+    time.sleep(3)
+    run_job2()

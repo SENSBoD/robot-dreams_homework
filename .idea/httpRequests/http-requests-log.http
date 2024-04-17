@@ -1,3 +1,51 @@
+POST http://localhost:8082
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "raw_dir": "/raw/sales/2022-08-09",
+  "stg_dir": "/stg/sales/2022-08-09"
+}
+
+<> 2024-04-17T113113.201.json
+
+###
+
+POST http://localhost:8082
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "raw_dir": "/raw/sales/2022-08-09",
+  "stg_dir": "/stg/sales/2022-08-09"
+}
+
+<> 2024-04-17T113004.201.json
+
+###
+
+POST http://localhost:8082
+Content-Type: application/json
+Content-Length: 78
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "raw_dir": "/raw/sales/2022-08-09",
+  "stg_dir": "/stg/sales/2022-08-09"
+}
+
+<> 2024-04-17T112902.201.json
+
+###
+
 POST http://localhost:8081
 Content-Type: application/json
 Content-Length: 64

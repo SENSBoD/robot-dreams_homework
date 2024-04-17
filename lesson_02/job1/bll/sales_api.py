@@ -8,8 +8,17 @@ import os
 # API_URL = 'https://fake-api-vycpfa6oca-uc.a.run.app'
 
 
-# Save json files to folder, named by date
 def save_sales_to_local_disk(date: str, raw_dir: str) -> None:
+    """
+    Save json files to folder, named by date
+
+    Args:
+    - date: The date for which sales data is requested
+    - raw_dir: Directory where sales data is saved
+
+    Returns:
+    - None
+    """
     # TODO: implement me
     # 1. get data from the API
     # 2. save data to disk
@@ -33,8 +42,11 @@ def save_sales_to_local_disk(date: str, raw_dir: str) -> None:
         else:
             break
 
-# Clear the contents of the raw directory
+
 def clear_raw_directory(raw_dir):
+    """
+    Clear raw directory
+    """
     if os.path.exists(raw_dir):
         for file in os.listdir(raw_dir):
             file_path = os.path.join(raw_dir, file)

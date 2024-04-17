@@ -8,13 +8,15 @@ API_URL = 'https://fake-api-vycpfa6oca-uc.a.run.app'
 AUTH_TOKEN = os.environ['AUTH_TOKEN']
 
 
-# Get sales from API
 def get_sales_from_api(date: str, page: int) -> Any | None:
     """
     Get data from sales API for specified date.
 
-    :param date: data retrieve the data from
-    :return: list of records
+    Args:
+    - date (str): The date for which sales data is requested.
+    - page (str): The page number for which sales data is requested.
+    Returns:
+    - list of records
     """
     headers = {'Authorization': AUTH_TOKEN}
     response = requests.get(API_URL + f"/sales", params={'date': date, 'page': page}, headers=headers)

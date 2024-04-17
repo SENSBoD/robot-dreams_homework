@@ -1,31 +1,26 @@
 import os
 import json
+import requests
 import fastavro
+
 
 AUTH_TOKEN = os.environ['AUTH_TOKEN']
 API_URL = 'https://fake-api-vycpfa6oca-uc.a.run.app'
 
-def get_sales_from_api(date: str, page: int) -> dict:
-    """
-    Retrieve sales data from the API for a specific date and page.
 
-    Args:
-    - date (str): The date for which sales data is requested.
-    - page (int): The page number of the sales data.
+schema = {
+    "type": "record",
+    "name": "Person",
+    "fields": [
+        {"name": "client", "type": "string"},
+        {"name": "purchase_date", "type": "string"},
+        {"name": "product", "type": "string"},
+        {"name": "price", "type": "int"}
+    ]
+}
 
-    Returns:
-    - dict: Sales data retrieved from the API.
-    """
-    headers = {'Authorization': AUTH_TOKEN}
-    response = requests.get(API_URL + f"/sales", params={'date': date, 'page': page}, headers=headers)
-    if response.status_code == 200:
-        sales_data = response.json()
-        return sales_data
-    else:
-        print("Error fetching sales data:", response.text)
-        return None
 
-def save_sales_to_stg_dir(date: str, raw_dir: str, stg_dir: str) -> None:
+def save_sales_to_stg_dir(raw_dir: str, stg_dir: str) -> None:
     """
     Save sales data to the staging directory in Avro format.
 
@@ -37,6 +32,8 @@ def save_sales_to_stg_dir(date: str, raw_dir: str, stg_dir: str) -> None:
     Returns:
     - None
     """
+    date = os.path.basename(os.path.normpath(raw_dir))
+
     page = 1
     while True:
         file_name = f"sales_{date}_{page}.json"
@@ -46,14 +43,10 @@ def save_sales_to_stg_dir(date: str, raw_dir: str, stg_dir: str) -> None:
                 sales_data = json.load(f)
                 avro_file_name = f"sales_{date}_{page}.avro"
                 avro_file_path = os.path.join(stg_dir, avro_file_name)
+                print(avro_file_path)
+
                 with open(avro_file_path, "wb") as avro_file:
-                    fastavro.writer(avro_file, sales_data, schema=None)
+                    fastavro.writer(avro_file, schema, sales_data)
             page += 1
         else:
             break
-
-if __name__ == '__main__':
-    date = '2022-08-09'
-    raw_dir = '/path/to/my_dir/raw/sales'
-    stg_dir = '/path/to/my_dir/stg/sales'
-    save_sales_to_stg_dir(date, raw_dir, stg_dir)

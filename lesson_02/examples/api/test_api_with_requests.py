@@ -1,5 +1,6 @@
 import os
 import requests
+import os
 
 
 AUTH_TOKEN = os.environ['AUTH_TOKEN']
