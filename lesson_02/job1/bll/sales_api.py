@@ -19,15 +19,6 @@ def save_sales_to_local_disk(date: str, raw_dir: str) -> None:
     Returns:
     - None
     """
-    # TODO: implement me
-    # 1. get data from the API
-    # 2. save data to disk
-    #
-    # response = requests.get(
-    #     url='https://fake-api-vycpfa6oca-uc.a.run.app',
-    #     params={'date': date},
-    # )
-
     clear_raw_directory(raw_dir)
 
     page = 1
