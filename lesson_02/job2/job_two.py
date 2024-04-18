@@ -1,6 +1,5 @@
 import os
 import json
-import requests
 import fastavro
 from schema import schema
 

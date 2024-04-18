@@ -1,11 +1,6 @@
 from lesson_02.job1.dal.sales_api import get_sales_from_api
-import requests
 import json
 import os
-
-
-# AUTH_TOKEN = os.environ['AUTH_TOKEN']
-# API_URL = 'https://fake-api-vycpfa6oca-uc.a.run.app'
 
 
 def save_sales_to_local_disk(date: str, raw_dir: str) -> None:
