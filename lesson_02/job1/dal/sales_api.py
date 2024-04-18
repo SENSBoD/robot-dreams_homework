@@ -26,20 +26,3 @@ def get_sales_from_api(date: str, page: int) -> Any | None:
     else:
         print("Error fetching sales data:", response.text)
         return None
-
-    # dummy return:
-    # return [
-    #     {
-    #         "client": "Tara King",
-    #         "purchase_date": "2022-08-09",
-    #         "product": "Phone",
-    #         "price": 1062
-    #     },
-    #     {
-    #         "client": "Lauren Hawkins",
-    #         "purchase_date": "2022-08-09",
-    #         "product": "TV",
-    #         "price": 1373
-    #     },
-    #     # ...
-    # ]
