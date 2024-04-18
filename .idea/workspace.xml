@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bb298b-09fd-4c96-9f6a-6db3e3b3d54d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_02/job2/schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job1/dal/sales_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/job1/dal/sales_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_02/job2/job_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/job2/job_two.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_1.avro" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_1.avro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_2.avro" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_2.avro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_3.avro" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_3.avro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_4.avro" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_02/stg/sales/2022-08-09/sales_2022-08-09_4.avro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +311,7 @@
       <workItem from="1713334137778" duration="1022000" />
       <workItem from="1713335563419" duration="3704000" />
       <workItem from="1713340728190" duration="7979000" />
-      <workItem from="1713463201690" duration="1366000" />
+      <workItem from="1713463201690" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -349,7 +348,7 @@
     <SUITE FILE_PATH="coverage/robot_dreams_homework$test_api_with_requests.coverage" NAME="test_api_with_requests Coverage Results" MODIFIED="1713349039555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/examples/api" />
     <SUITE FILE_PATH="coverage/robot_dreams_homework$main_test.coverage" NAME="main_test Coverage Results" MODIFIED="1713257955108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02" />
     <SUITE FILE_PATH="coverage/robot_dreams_homework$job_one.coverage" NAME="job_one Coverage Results" MODIFIED="1713278146266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/job1" />
-    <SUITE FILE_PATH="coverage/robot_dreams_homework$main.coverage" NAME="main Coverage Results" MODIFIED="1713349234052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/job2" />
-    <SUITE FILE_PATH="coverage/robot_dreams_homework$check_jobs.coverage" NAME="check_jobs Coverage Results" MODIFIED="1713349236717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/bin" />
+    <SUITE FILE_PATH="coverage/robot_dreams_homework$main.coverage" NAME="main Coverage Results" MODIFIED="1713464688758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/job2" />
+    <SUITE FILE_PATH="coverage/robot_dreams_homework$check_jobs.coverage" NAME="check_jobs Coverage Results" MODIFIED="1713464695779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lesson_02/bin" />
   </component>
 </project>
