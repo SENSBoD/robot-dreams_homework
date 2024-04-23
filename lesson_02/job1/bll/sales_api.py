@@ -19,7 +19,6 @@ def save_sales_to_local_disk(date: str, raw_dir: str) -> None:
     page = 1
     while True:
         response = get_sales_from_api(date, page)
-        print(response)
         if response:
             file_name = f"sales_{date}_{page}.json"
             with open(os.path.join(raw_dir, file_name), "w") as f:
