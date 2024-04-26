@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="ds_learn" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="ds_learn" project-jdk-type="Python SDK" />
 </project>
