@@ -1,7 +1,7 @@
+import os
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-import os
 from airflow.providers.http.hooks.http import HttpHook
 
 
