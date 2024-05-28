@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
-from airflow.operators.dummy import DummyOperator
 
 # Constants
 BUCKET_NAME = 'de-07-data-bucket'
@@ -14,12 +13,10 @@ DESTINATION_FILE_PATH = GCS_FOLDER + '{{ ds }}.csv'
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
-    'start_date': datetime(2022, 8, 9),
-    'email': ['your@email.com'],
+    'email': ['your-email@example.com'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
-    'retry_delay': timedelta(minutes=5),
 }
 
 
@@ -27,7 +24,10 @@ dag = DAG(
     'upload_csv_to_gcs_bucket',
     default_args=default_args,
     description='Upload CSV files to GCS bucket',
-    schedule_interval=timedelta(days=1),
+    start_date=datetime(2022, 8, 9),
+    # end_date=datetime(2022, 8, 10),
+    # schedule_interval=timedelta(days=1),
+    schedule_interval='@daily',
     catchup=False
 )
 

@@ -1,0 +1,6 @@
+[2024-05-15T20:20:43.251+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-15T20:20:43.280+0000] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: upload_csv_to_gcs_bucket.upload_task_1 scheduled__2022-08-13T00:00:00+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-08-13T00:00:00+00:00 but this is after the task's end date 2022-08-10T00:00:00+00:00.
+[2024-05-15T20:20:43.290+0000] {local_task_job_runner.py:163} INFO - Task is not able to be run
+[2024-05-15T20:23:51.325+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-15T20:23:51.351+0000] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: upload_csv_to_gcs_bucket.upload_task_1 scheduled__2022-08-13T00:00:00+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2022-08-13T00:00:00+00:00 but this is after the task's end date 2022-08-10T00:00:00+00:00.
+[2024-05-15T20:23:51.355+0000] {local_task_job_runner.py:163} INFO - Task is not able to be run

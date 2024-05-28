@@ -1,0 +1,1 @@
+[2024-05-15T20:20:53.453+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: upload_csv_to_gcs_bucket.upload_task_1 manual__2024-05-15T14:10:33.327979+00:00 [queued]> finished (success) although the task says it's queued. (Info: None) Was the task killed externally?
