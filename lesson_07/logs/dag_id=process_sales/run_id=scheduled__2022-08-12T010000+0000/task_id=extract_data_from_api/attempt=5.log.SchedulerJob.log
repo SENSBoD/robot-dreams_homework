@@ -1,0 +1,1 @@
+[2024-04-27T16:01:42.493+0000] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: process_sales.extract_data_from_api scheduled__2022-08-12T01:00:00+00:00 [queued]> finished (success) although the task says it's queued. (Info: None) Was the task killed externally?
